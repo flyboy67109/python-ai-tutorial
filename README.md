@@ -1,7 +1,7 @@
 # python-ai-tutorial
 ## Overview:
 
-This tutorial is to help an existing PHP or JavaScript programmer to transition to Pyton and create a simple micro AI model. For reference, download micropt.py
+This tutorial is to help an existing PHP or JavaScript programmer to transition to Pyton and create a simple micro AI model. For reference, download [micropt.py](https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95)
 
 ## Prerequisites:
 
@@ -1488,13 +1488,13 @@ Take a moment to look at what you've done. You started with `print("Hello, World
 
 Here's what that "efficiency" covers and where to go next:
 
-- **Vectorized math.** Real libraries like PyTorch and NumPy do thousands of these multiply-adds at once on a GPU, where this file does them one scalar at a time. That's why your run took minutes.
-- **Scale.** More layers, wider vectors, longer context, billions of parameters, and far more data.
-- **Better tokens.** Real models split text into word pieces rather than single letters.
+- [**Vectorized math.**](https://numpy.org/doc/stable/user/absolute_beginners.html) Real libraries like PyTorch and NumPy do thousands of these multiply-adds at once on a GPU, where this file does them one scalar at a time. That's why your run took minutes.
+- [**Scale.**](https://www.coursera.org/articles/scaling-laws-for-neural-language-models) More layers, wider vectors, longer context, billions of parameters, and far more data.
+- [**Better tokens.**](https://github.com/karpathy/minbpe) Real models split text into word pieces rather than single letters.
 
 If you want to continue, the natural next steps are the repos:
 
-- **nanoGPT** is the same model rewritten in PyTorch, so you'll recognize every part.
-- **makemore** builds up to the same idea more gradually.
-- Karpathy's video lectures to go with them are called "Neural Networks: Zero to Hero."
-- And the Raschka repo goes further toward a full-scale model.
+- [**nanoGPT**](https://www.startuphub.ai/news/figure-andrej-karpathy-nano-series-technical-contribution-2026-07-16) is the same model rewritten in PyTorch, so you'll recognize every part.
+- [**makemore**](https://github.com/Anri-Lombard/makemore) builds up to the same idea more gradually.
+- [Karpathy's video lectures](https://www.startuphub.ai/news/figure-andrej-karpathy-nano-series-technical-contribution-2026-07-16) to go with them are called "Neural Networks: Zero to Hero."
+- And the [Raschka repo](https://github.com/rasbt/LLMs-from-scratch) goes further toward a full-scale model.
